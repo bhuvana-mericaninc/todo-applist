@@ -40,6 +40,7 @@ val.forEach((value) =>{
 })
  }
   return (
+    <div className="">
     <form className='text-center py-[12rem]' onSubmit={Login}>
         <p className="text-xl">Login</p>
        <div>
@@ -63,5 +64,6 @@ val.forEach((value) =>{
    
 </div>
     </form>
+    </div>
   )
 }
