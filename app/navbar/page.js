@@ -11,4 +11,4 @@ import { useRouter } from 'next/navigation'
     </div>
   )
 }
-export default Page
+export default Page;

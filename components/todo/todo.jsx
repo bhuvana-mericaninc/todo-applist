@@ -70,8 +70,9 @@ export const Todo = () => {
     />
 
     {!show ? (
-      <button className="bg-green-600 p-5 text-white" onClick={handleCreate}>
-        Create
+      <button className="bg-blue-400 p-3 text-black hover:bg-green-400" onClick={handleCreate}>
+      Add
+     
       </button>
     ) : (
       <button className="bg-green-300 p-5 text-white" onClick={handleUpdate}>
